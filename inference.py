@@ -38,7 +38,6 @@ if st.button("Prediksi Persetujuan Pinjaman"):
         'person_age': [person_age],
         'person_income': [person_income],
         'person_home_ownership': [person_home_ownership],
-        'person_emp_length': [person_emp_length],
         'loan_intent': [loan_intent],
         'loan_amnt': [loan_amnt],
         'loan_int_rate': [loan_int_rate],
