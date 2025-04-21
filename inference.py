@@ -20,7 +20,7 @@ st.header("Input Data Nasabah:")
 person_age = st.number_input("Age", min_value=20, max_value=150, value=30)
 person_income = st.number_input("Income", min_value=8000, max_value=1000000, value=80000)
 person_home_ownership = st.selectbox("Home Ownership", ["RENT", "MORTGAGE", "OWN", "OTHER"])
-person_emp_length = st.number_input("Employment Length (tahun)", min_value=0, max_value=50, value=5)
+
 loan_intent = st.selectbox("Loan Intent", ["PERSONAL", "EDUCATION", "MEDICAL", "VENTURE", "HOMEIMPROVEMENT", "DEBTCONSOLIDATION"])
 loan_amnt = st.number_input("Loan Amount", min_value=500, max_value=35000, value=10000)
 loan_int_rate = st.number_input("Loan Interest Rate (%)", min_value=5.42, max_value=20.0, value=10.0)
