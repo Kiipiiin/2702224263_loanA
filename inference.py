@@ -45,7 +45,7 @@ if st.button("Prediksi Persetujuan Pinjaman"):
         'loan_percent_income': [loan_percent_income],
         'cb_person_cred_hist_length': [cb_person_cred_hist_length],
         'credit_score': [credit_score],
-        'previous_loan_defaults_on_file': [1 if previous_loan_defaults_on_file == "Yes" else 0],
+        'previous_loan_defaults_on_file': [previous_loan_defaults_on_file],
         'person_gender': [person_gender],
         'person_education': [person_education],
         'person_emp_exp': [person_emp_exp]
