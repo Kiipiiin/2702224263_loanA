@@ -31,7 +31,7 @@ class LoanModel:
         self.preprocessor = ColumnTransformer(transformers=[
             ('ordinal', self.ordinal_encoder, self.ordinal_columns),
             ('onehot', self.onehot_encoder, self.one_hot_columns)
-        ])
+        ],remainder='passthrough')
 
         # Model xgboost
         self.model = xgb.XGBClassifier(n_estimators=100, random_state=42)
